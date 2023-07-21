@@ -3,6 +3,7 @@ import Connect from './components/connect.jsx'
 import Network from './components/network.jsx'
 import Send from './components/send.tsx'
 import SignMessage from './components/sign-message.jsx'
+import VerifyMessage from './components/verify-message.jsx'
 import { useFilsnapContext } from './hooks/filsnap.js'
 
 export function App() {
@@ -21,6 +22,7 @@ export function App() {
               <summary>Advanced</summary>
               <Account />
               <SignMessage />
+              <VerifyMessage />
             </details>
           </>
         )}

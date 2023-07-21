@@ -49,6 +49,7 @@
   "dependencies": {
     "@acab/reset.css": "^0.5.3",
     "@preact/signals": "^1.1.5",
+    "@stfil/filecoin-utils": "^1.0.1",
     "filsnap-adapter": "workspace:^",
     "iso-filecoin": "^1.0.0",
     "metamask-testing-tools": "^1.1.4",
